@@ -1,0 +1,8 @@
+Python Wrangling
+pip install cryptography
+
+information
+use exiftool to look at the metadata. Notice the License is in base64, and decoding it gives the flag.
+
+Static ain't always noise
+./ltdis.sh static, grep pico static.ltdis.strings.txt
